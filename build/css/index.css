@@ -1,0 +1,465 @@
+html {
+  margin: 0;
+  height: 100%; }
+
+body {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  height: auto; }
+
+.header {
+  width: 100%;
+  height: 136px;
+  margin: 0 auto;
+  background-color: #233148;
+  font-size: 10px; }
+  @media screen and (min-width: 1920px) {
+    .header {
+      height: 178px; } }
+
+.header-img {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 90px; }
+  @media screen and (min-width: 900px) {
+    .header-img {
+      margin-left: 134px; } }
+  @media screen and (min-width: 1440px) {
+    .header-img {
+      width: 28px;
+      height: 29px;
+      margin-left: 135px;
+      margin-top: 132px; } }
+  @media screen and (min-width: 1920px) {
+    .header-img {
+      width: 30px;
+      height: 30px;
+      margin-left: 375px;
+      margin-top: 119px; } }
+
+.body {
+  width: 100%;
+  height: 1100px;
+  background-color: #233148; }
+  @media screen and (min-width: 1440px) {
+    .body {
+      height: 1278px; } }
+  @media screen and (min-width: 1920px) {
+    .body {
+      height: 1122px; } }
+
+.body-mainImage {
+  background: url("../../img/favicon_primary_white.svg") center center no-repeat;
+  width: 100%;
+  height: 682px;
+  background-size: 280%;
+  opacity: 0.1; }
+  @media screen and (min-width: 900px) {
+    .body-mainImage {
+      width: 585px;
+      height: 682px;
+      background-size: 100%;
+      margin-left: 50%;
+      transform: translateX(-50%); } }
+  @media screen and (min-width: 1440px) {
+    .body-mainImage {
+      width: 1027px;
+      background-size: 100%;
+      margin-left: 720px;
+      transform: translateX(-50%) translateY(55px); } }
+  @media screen and (min-width: 1920px) {
+    .body-mainImage {
+      width: 1020px;
+      height: 1100px;
+      background-size: 100%;
+      margin-left: 960px;
+      transform: translateX(-50%) translateY(-210px); } }
+
+.body-heading {
+  display: inline-block;
+  width: 210px;
+  height: auto;
+  color: white;
+  font-size: 30px;
+  font-family: "ProximaNova-Black", sans-serif;
+  font-weight: bold;
+  margin: 24px 137px;
+  transform: translateX(-50%);
+  top: 102px;
+  position: absolute;
+  z-index: 10;
+  line-height: 36px; }
+  @media screen and (min-width: 900px) {
+    .body-heading {
+      margin: 75px 134px;
+      transform: none;
+      font-size: 43px;
+      font-weight: 900;
+      width: 340px;
+      line-height: 58px; } }
+  @media screen and (min-width: 1920px) {
+    .body-heading {
+      margin: 68px 374px;
+      font-size: 44px;
+      width: 350px;
+      font-weight: 900;
+      line-height: 58px; } }
+
+.body-content {
+  position: absolute;
+  top: 190px;
+  margin-top: 23px;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+  @media screen and (min-width: 900px) {
+    .body-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: 50%;
+      transform: translateX(-50%); } }
+  @media screen and (min-width: 1440px) {
+    .body-content {
+      width: 68%;
+      margin-left: 709px;
+      margin-top: 120px; } }
+  @media screen and (min-width: 1920px) {
+    .body-content {
+      margin-top: 133px;
+      margin-left: 945px;
+      width: 1045px; } }
+
+.body-unit--image {
+  width: 40px;
+  height: 40px;
+  margin-left: 29px;
+  margin-top: 25px; }
+  @media screen and (min-width: 900px) {
+    .body-unit--image {
+      margin-left: 38px;
+      width: 55px;
+      height: 55px;
+      margin-top: 90px; } }
+  @media screen and (min-width: 1920px) {
+    .body-unit--image {
+      margin-top: 65px;
+      margin-left: 45px; } }
+
+.body-unit-heading {
+  font-family: "ProximaNova-Bold", sans-serif;
+  font-size: 24px;
+  margin-top: 7px;
+  margin-left: 30px;
+  color: white; }
+  @media screen and (min-width: 900px) {
+    .body-unit-heading {
+      font-size: 32px;
+      margin-top: 14px;
+      margin-left: 38px; } }
+  @media screen and (min-width: 1920px) {
+    .body-unit-heading {
+      margin-top: 13px;
+      margin-left: 45px; } }
+
+.body-unit--text {
+  display: inline-block;
+  font-family: "ProximaNova-Light", sans-serif;
+  color: #8796AE;
+  margin-left: 31px;
+  margin-right: 34px;
+  margin-top: 25px;
+  font-size: 16px;
+  width: 312px;
+  line-height: 25px; }
+  @media screen and (min-width: 900px) {
+    .body-unit--text {
+      font-size: 18px;
+      margin-top: 42px;
+      width: 425px;
+      line-height: 25px;
+      margin-left: 43px; } }
+  @media screen and (min-width: 1920px) {
+    .body-unit--text {
+      margin-top: 42px;
+      margin-left: 47px;
+      width: 430px;
+      height: 100px;
+      line-height: 27px; } }
+
+.body-unit--textBottom {
+  margin-bottom: 80px; }
+
+.body-preFooterUnit {
+  width: 100%;
+  height: 411px;
+  background-color: #1E61CF;
+  box-sizing: border-box;
+  top: 1147px;
+  position: absolute; }
+  @media screen and (min-width: 1440px) {
+    .body-preFooterUnit {
+      height: 311px;
+      width: 86%;
+      top: 1159px;
+      position: absolute;
+      z-index: 1; } }
+  @media screen and (min-width: 1920px) {
+    .body-preFooterUnit {
+      position: absolute;
+      height: 311px;
+      top: 1148px;
+      width: 81.5%; } }
+
+.body-preFooterUnit--image {
+  float: bottom;
+  width: 201px;
+  height: 230px;
+  top: 253px;
+  right: 173px;
+  opacity: 0.2;
+  position: absolute; }
+  @media screen and (min-width: 1440px) {
+    .body-preFooterUnit--image {
+      width: 245px;
+      height: 286px;
+      right: 913px;
+      top: 147px; } }
+  @media screen and (min-width: 1920px) {
+    .body-preFooterUnit--image {
+      width: 245px;
+      height: 280px;
+      right: 913px;
+      top: 147px; } }
+
+.body-preFooterUnit--heading {
+  display: inline-block;
+  position: absolute;
+  font-family: "ProximaNova-Extrabold", sans-serif;
+  font-size: 22px;
+  color: white;
+  z-index: 1;
+  margin-top: 249px;
+  right: 208px;
+  width: 139px;
+  font-weight: bold; }
+  @media screen and (min-width: 1440px) {
+    .body-preFooterUnit--heading {
+      font-size: 32px;
+      right: 1020px;
+      bottom: 237px; } }
+  @media screen and (min-width: 1920px) {
+    .body-preFooterUnit--heading {
+      right: 1020px;
+      bottom: 233px;
+      line-height: 40px; } }
+
+.body-preFooterUnit--text {
+  font-family: "ProximaNova-Reg", sans-serif;
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 335px;
+  right: 146px;
+  line-height: 23px; }
+  @media screen and (min-width: 1440px) {
+    .body-preFooterUnit--text {
+      position: absolute;
+      font-size: 24px;
+      right: 665px;
+      bottom: 177px;
+      line-height: 35px; } }
+  @media screen and (min-width: 1920px) {
+    .body-preFooterUnit--text {
+      font-size: 24px;
+      right: 647px;
+      bottom: 182px;
+      line-height: 33px;
+      width: 220px; } }
+
+.body-preFooterUnit--imageBroshure {
+  background-image: url("../../img/Broshure@1X.png");
+  width: 258px;
+  height: 338px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 2;
+  transform: translateX(118px) translateY(-53px); }
+  @media screen and (min-width: 1440px) {
+    .body-preFooterUnit--imageBroshure {
+      width: 574px;
+      height: 483px;
+      background-size: cover;
+      transform: translateX(0) translateY(-76px);
+      left: 720px; } }
+  @media screen and (min-width: 1920px) {
+    .body-preFooterUnit--imageBroshure {
+      transform: translateX(0) translateY(-75px);
+      width: 574px;
+      height: 483px;
+      left: 960px; } }
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 350px;
+  background-color: #EAEFF5;
+  margin-top: 740px; }
+  @media screen and (min-width: 1440px) {
+    .footer {
+      height: 713px;
+      margin-top: 399px; } }
+  @media screen and (min-width: 1920px) {
+    .footer {
+      top: 900px;
+      position: absolute;
+      height: 513px; } }
+
+.footer-pseudoDiv {
+  display: none;
+  width: 100%;
+  height: 96px;
+  background-color: #233148; }
+  @media screen and (min-width: 1440px) {
+    .footer-pseudoDiv {
+      display: block; } }
+  @media screen and (min-width: 1920px) {
+    .footer-pseudoDiv {
+      display: none; } }
+
+.footer-button {
+  width: 281px;
+  height: 55px;
+  background-color: #FCCF18;
+  color: #233148;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin-top: -27px;
+  position: absolute;
+  z-index: 10;
+  margin-left: 51%;
+  transform: translateX(-50%);
+  font-family: "ProximaNova-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  transition: 1500ms; }
+  @media screen and (min-width: 1440px) {
+    .footer-button {
+      margin-left: 427px;
+      width: 390px;
+      height: 76px;
+      margin-top: 119px;
+      font-size: 22px;
+      padding-bottom: 4px;
+      box-sizing: border-box; } }
+  @media screen and (min-width: 1920px) {
+    .footer-button {
+      margin-left: 666px;
+      width: 390px;
+      height: 76px;
+      margin-top: 120px; } }
+
+.footer-button:hover {
+  background-color: #fcf720;
+  cursor: pointer; }
+
+.footer-button:focus {
+  outline: none; }
+
+.footer-img {
+  width: 20px;
+  height: 20px;
+  margin-left: 30px;
+  margin-top: 91px; }
+  @media screen and (min-width: 1440px) {
+    .footer-img {
+      width: 28px;
+      height: 29px;
+      margin-top: 324px;
+      margin-left: 135px; } }
+  @media screen and (min-width: 1920px) {
+    .footer-img {
+      width: 27px;
+      height: 27px;
+      margin-top: 328px;
+      margin-left: 375px; } }
+
+.footer-text {
+  width: 300px;
+  font-family: "ProximaNova-Black", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-left: 31px;
+  margin-top: 6px;
+  color: #233148; }
+  @media screen and (min-width: 1440px) {
+    .footer-text {
+      font-size: 44px;
+      margin-top: 7px;
+      margin-left: 134px;
+      width: 550px;
+      line-height: 59px; } }
+  @media screen and (min-width: 1920px) {
+    .footer-text {
+      font-size: 44.5px;
+      margin-top: 12px;
+      margin-left: 375px;
+      width: 550px;
+      line-height: 60px; } }
+
+@font-face {
+  font-family: "ProximaNova-Black";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-Black.otf");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-Bold.otf");
+  font-style: normal;
+  font-weight: bold; }
+
+@font-face {
+  font-family: "ProximaNova-BoldIt";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-BoldIt.otf");
+  font-style: italic;
+  font-weight: bold; }
+
+@font-face {
+  font-family: "ProximaNova-Light";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-Light.otf");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "ProximaNova-LightIt";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-LightIt.otf");
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "ProximaNova-Reg";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-Reg.otf");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "ProximaNova-RegIt";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-RegIt.otf");
+  font-style: italic;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "ProximaNova-Extrabold";
+  src: url("/front-end-test/fonts/ProximaNova/ProximaNova-Xbold.otf");
+  font-style: normal;
+  font-weight: bold; }
+
+/*# sourceMappingURL=index.css.map */
