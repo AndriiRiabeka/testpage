@@ -5,15 +5,22 @@ const htmlPartial = require('gulp-html-partial');
 
 const uglify = require('gulp-uglify-es').default;
 const concat = require('gulp-concat');
+const ghPages = require('gulp-gh-pages');
 
 sass.compiler = require('node-sass');
+
+
+
+gulp.task('deploy', function() {
+    return gulp.src('./build/**/*')
+        .pipe(ghPages());
+});
 
 gulp.task('sass', function () {
     return gulp.src('./scss/*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(sourcemaps.write('./'))
-        // .pipe(concat('index.css'))
         .pipe(gulp.dest('./build/css'));
 
 });
