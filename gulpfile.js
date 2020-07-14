@@ -11,12 +11,12 @@ sass.compiler = require('node-sass');
 
 
 
-var deploy      = require('gulp-gh-pages');
+var deploy = require('gulp-gh-pages');
+var ghPages = require('gh-pages');
 
-
-gulp.task('deploy', function () {
-    return gulp.src("./dist/**/*")
-        .pipe(deploy())
+gulp.task('deploy', function() {
+    return gulp.src('./build/**/*')
+        .pipe(ghPages());
 });
 
 gulp.task('sass', function () {
@@ -29,15 +29,6 @@ gulp.task('sass', function () {
 });
 
 
-// gulp.task('style:vendor', function () {
-//     return gulp
-//         .src([
-//             './node_modules/bootstrap/dist/css/bootstrap.css'
-//         ])
-//         .pipe(concat('vendor.css'))
-//         .pipe(gulp.dest('./build/css'));
-// });
-
 gulp.task('script', function(){
     return gulp.src([
         './scripts/components/**/*.js',
@@ -47,18 +38,6 @@ gulp.task('script', function(){
         .pipe(concat('scripts.js'))
         .pipe(gulp.dest('./build/js'));
 });
-
-// gulp.task('script:vendor', function () {
-//     return gulp
-//         .src([
-//             './node_modules/jquery/dist/jquery.js',
-//             './node_modules/bootstrap/dist/js/bootstrap.js',
-//             './node_modules/@fortawesome/fontawesome-free/js/all.js'
-//         ])
-//         .pipe(uglify())
-//         .pipe(concat('vendor.js'))
-//         .pipe(gulp.dest('./build/js'));
-// });
 
 gulp.task('html', function (done) {
     gulp.src(['*.html'])
