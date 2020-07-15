@@ -51,7 +51,7 @@ body {
       height: 1122px; } }
 
 .body-mainImage {
-  background: url("../../img/favicon_primary_white.svg") center center no-repeat;
+  background: url("./../images/favicon_primary_white.svg") center center no-repeat;
   width: 100%;
   height: 682px;
   background-size: 280%;
@@ -123,7 +123,7 @@ body {
       transform: translateX(-50%); } }
   @media screen and (min-width: 1440px) {
     .body-content {
-      width: 72%;
+      width: 67%;
       margin-left: 713px;
       margin-top: 120px; } }
   @media screen and (min-width: 1920px) {
@@ -283,7 +283,7 @@ body {
       width: 220px; } }
 
 .body-preFooterUnit--imageBroshure {
-  background-image: url("../../img/Broshure@1X.png");
+  background-image: url("./../images/Broshure@1X.png");
   width: 258px;
   height: 338px;
   background-repeat: no-repeat;
