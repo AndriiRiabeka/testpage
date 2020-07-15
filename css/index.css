@@ -123,9 +123,9 @@ body {
       transform: translateX(-50%); } }
   @media screen and (min-width: 1440px) {
     .body-content {
-      width: 70%;
+      width: 68%;
       margin-left: 713px;
-      margin-top: 130px; } }
+      margin-top: 120px; } }
   @media screen and (min-width: 1920px) {
     .body-content {
       margin-top: 133px;
@@ -142,7 +142,7 @@ body {
       margin-left: 38px;
       width: 55px;
       height: 55px;
-      margin-top: 90px; } }
+      margin-top: 130px; } }
   @media screen and (min-width: 1920px) {
     .body-unit--image {
       margin-top: 65px;
