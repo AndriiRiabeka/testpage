@@ -18,7 +18,7 @@
     "gulp-html-partial": "^1.0.1",
     "gulp-sass": "^4.1.0",
     "gulp-uglify-es": "^2.0.0",
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "aos": "^2.3.4",
